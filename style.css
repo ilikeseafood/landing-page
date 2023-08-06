@@ -7,11 +7,23 @@ body {
 .header {
     font-size: 24px;
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     padding: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+.workplace {
+    width: 550px;
+    height: auto;
+}
+
+section {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 ul {
@@ -32,17 +44,13 @@ a {
 .intro {
     background-color: #1F2937;
     color: white;
-    padding: 30px;
+    padding: 200px;
     display: flex;
-    flex-direction: row;
-    
+    justify-content: space-around;
 }
 
 .introduction {
-    padding: 30px;
-    margin-left: 125px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
 }
@@ -50,6 +58,7 @@ a {
 img {
     height: 200px;
     width: auto;
+    border-radius: 20px;
 }
 
 h1 {
@@ -60,8 +69,10 @@ h1 {
 }
 
 p {
+    padding: 20px;
     margin: 0;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 button {
@@ -76,6 +87,8 @@ button {
 .showcase {
     display: flex;
     justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 .quote {
@@ -102,12 +115,30 @@ h2 {
     margin: 0;
 }
 
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container2 {
+    text-align: center;
+
+}
+
 .showcase {
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 h4 {
+    font-size: 40px;
     text-align: right;
+    padding: 20px;
+    margin-right: 230px;
+}
+
+h3 {
+    margin-left: 20px;
 }
 
 .signup {
